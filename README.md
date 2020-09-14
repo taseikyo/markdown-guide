@@ -1,6 +1,6 @@
-<img src="images/header.png" alt="header" height="150" align="right"/>
-
-# 中英文混排的 Markdown 写作指南
+<p align="center">
+	<img src="images/header-cat.jpg" alt="Markdown Guide" title="Markdown Guide">
+</p>
 
 注意：这只是我以个人习惯写成的一份 Markdown（下面写作 md）指南，毕竟每个人的习惯不同，如果不喜欢或者觉得是篇辣鸡指南可以无视。
 
@@ -10,11 +10,13 @@
 - [目录](#目录)
 - [标题](#标题)
 - [正文](#正文)
+- [图片](#图片)
 - [列表](#列表)
 - [代码](#代码)
 - [超链接](#超链接)
 - [表格](#表格)
 - [公式](#公式)
+- [参考](#参考)
 
 ## 写在前面的话
 
@@ -150,6 +152,24 @@ setence
 - p2
 ```
 
+## 图片
+
+1. 不要添加自身链接
+
+没有必要的链接不要加，这一点跟参考自跳转类似，白痴的写法。
+
+错误示范：
+
+```
+[![](xxx.jpg)](xxx.jpg)
+```
+
+正确示范：
+
+```
+![](xxx.jpg)
+```
+
 ## 列表
 
 1. 无序列表应使用连字符（"-"）而不是使用星形符号（"\*"）
@@ -197,6 +217,29 @@ asda [GitHub](github.com) asdasd  √
 在 md 文档中插入 LaTeX 公式可太常见了，然而 GitHub 并不支持，有其他方法可以间接达到效果，比如用 CodeCogs 的外链。但我习惯之间在正文中直接插入公式了，毕竟 Markdown Preview Plus 是支持的。
 
 关于公式的生成，有很多网站提供有这类功能，比如之前有 UP 主做了个 [LaTeX 公式编辑器](https://latexlive.com/) 的网站，还支持图片识别，准确率还挺高的，所以我基本图片直接拖过去了。
+
+## 参考
+
+1. 不要使用链接的写法
+
+下面这种写法真的蠢，直接给出链接不就完了，再套一层完全没必要。
+
+错误示范：
+
+```
+### 参考
+
+- [https://github.com/taseikyo/markdown-guide](https://github.com/taseikyo/markdown-guide)
+```
+
+正确示范：
+
+```
+### 参考
+
+- https://github.com/taseikyo/markdown-guide
+```
+
 
 ### LICENSE
 
