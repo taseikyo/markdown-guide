@@ -26,7 +26,7 @@
 
 中英文应该自觉加上空格，网上也有大量格式化的工具或者网站，复制粘贴就可以得到一份空格分隔后的文档，如果懒得找，我这里有一个小工具：[pangu](https://github.com/taseikyo/PyQt5-Apps#pangu)，它是基于 [pangu.py](https://github.com/vinta/pangu.py) 用 PyQt 套了个壳子的小工具。
 
-最后推荐自己写的一个 Sublime Text 的一个插件：[sublime-markdown-helper](sublime-markdown-helper.7z)。该插件可以加速 md 文档的书写（大概），基本是常用的几个样式，所有格式都需要全段落选择，效果如下所示：
+最后推荐自己写的一个 Sublime Text 的一个插件：[sublime-markdown-helper](https://github.com/taseikyo/backup-utils/blob/master/Python/00D.sublime-markdown-helper.7z)。该插件可以加速 md 文档的书写（大概），基本是常用的几个样式，所有格式都需要全段落选择，效果如下所示：
 
 ![md-helper](images/sublime-markdown-helper.gif "sublime-markdown-helper")
 
@@ -51,7 +51,7 @@ python-使用指南.pdf √
 
 ## 目录
 
-每篇 md 文档都应该有一个目录，方便跳转，同时也方便有个对整个文档的全局了解。为此我还自己写了一个 [Python 脚本](auto_generate_toc.py) 来自动生成目录，因为是直接计算开头的井号数（"#"），可能有些 bug 或者格式问题，最终需要自己手动微调一下。
+每篇 md 文档都应该有一个目录，方便跳转，同时也方便有个对整个文档的全局了解。为此我还自己写了一个 [Python 脚本](https://github.com/taseikyo/backup-utils/blob/master/Python/006_auto_generate_toc.py) 来自动生成目录，因为是直接计算开头的井号数（"#"），可能有些 bug 或者格式问题，最终需要自己手动微调一下。
 
 ## 标题
 
@@ -71,7 +71,7 @@ python-使用指南.pdf √
 ## title2
 
 # title1
-setences
+sentence
 
 # title1
 - p1
@@ -87,7 +87,7 @@ setences
 
 # title1
 
-setences
+sentence
 
 # title1
 
@@ -121,16 +121,16 @@ setences
 错误示范：
 
 ```
-setence1
-setence2
+sentence1
+sentence2
 ```
 
 正确示范：
 
 ```
-setence1
+sentence1
 
-setence2
+sentence2
 ```
 
 3. 正文与列表之间要加空行。
@@ -138,7 +138,7 @@ setence2
 错误示范：
 
 ```
-setence
+sentence
 - p1
 - p2
 ```
@@ -146,7 +146,7 @@ setence
 正确示范：
 
 ```
-setence
+sentence
 
 - p1
 - p2
