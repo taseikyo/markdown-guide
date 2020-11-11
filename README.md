@@ -16,6 +16,7 @@
 - [超链接](#超链接)
 - [表格](#表格)
 - [公式](#公式)
+- [图表题注与文件路径](#图表题注与文件路径)
 - [参考](#参考)
 
 ## 写在前面的话
@@ -218,6 +219,35 @@ asda [GitHub](github.com) asdasd  √
 
 关于公式的生成，有很多网站提供有这类功能，比如之前有 UP 主做了个 [LaTeX 公式编辑器](https://latexlive.com/) 的网站，还支持图片识别，准确率还挺高的，所以我基本图片直接拖过去了。
 
+## 图表题注与文件路径
+
+写 md 会经常需要插入图片跟表格，以及代码，有时候可能需要插入题注，所以这里也做一个规定（参考 Word）。
+
+- 图片题注，使用斜体并在文字前加一个星号（"\*"），文字在图片下方：
+
+![](https://avatars3.githubusercontent.com/u/23132915?s=460&u=6aed8d3229553ec6e00d1f8a684df0cd4d4a9abd&v=4)
+
+\**taseikyo's avatar (a smart boy :3)*
+
+- 表格题注与代码文件路径，使用引用格式，并放在表格/代码的上方：
+
+> codes/hello.c
+
+```C
+#include <stdio.h>
+
+int main(int argc, char* argv[]) {
+    printf("hello world\n");
+    return 0;
+}
+```
+
+> taseikyo'info
+
+|    name    |     languages    |    skills   |
+|:----------:|:----------------:|:-----------:|
+| Lewis Tian | Chinese, English | C++, Python |
+
 ## 参考
 
 1. 不要使用链接的写法
@@ -240,7 +270,6 @@ asda [GitHub](github.com) asdasd  √
 - https://github.com/taseikyo/markdown-guide
 ```
 
-
-### LICENSE
+## LICENSE
 
 Copyright (c) 2020 Lewis Tian. Licensed under the MIT license.
