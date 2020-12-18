@@ -27,7 +27,7 @@
 
 中英文应该自觉加上空格，网上也有大量格式化的工具或者网站，复制粘贴就可以得到一份空格分隔后的文档，如果懒得找，我这里有一个小工具：[pangu](https://github.com/taseikyo/PyQt5-Apps#pangu)，它是基于 [pangu.py](https://github.com/vinta/pangu.py) 用 PyQt 套了个壳子的小工具。
 
-最后推荐自己写的一个 Sublime Text 的一个插件：[sublime-markdown-helper](https://github.com/taseikyo/backup-utils/blob/master/Python/00D.sublime-markdown-helper.7z)。该插件可以加速 md 文档的书写（大概），基本是常用的几个样式，所有格式都需要全段落选择，效果如下所示：
+最后推荐自己写的一个 Sublime Text 的一个插件：[sublime-markdown-helper](https://github.com/taseikyo/sublime-markdown-helper)。该插件可以加速 md 文档的书写（大概），基本是常用的几个样式，所有格式都需要全段落选择，效果如下所示：
 
 ![md-helper](images/sublime-markdown-helper.gif "sublime-markdown-helper")
 
